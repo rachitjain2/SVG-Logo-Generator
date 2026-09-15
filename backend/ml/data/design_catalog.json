@@ -1,0 +1,674 @@
+[
+  {
+    "id": "fintech_nordic_01",
+    "name": "Nordic Slate & Electric Cyan",
+    "industry": "finance",
+    "attributes": {
+      "minimal_ornate": 0.15,
+      "modern_classic": 0.85,
+      "playful_serious": 0.1,
+      "warm_cool": 0.2,
+      "bold_delicate": 0.7
+    },
+    "palette": {
+      "primary": "#0F172A",
+      "secondary": "#0284C7",
+      "accent": "#06B6D4",
+      "background": "#FFFFFF",
+      "text": "#0F172A"
+    },
+    "typography": {
+      "primary_font": "Space Grotesk",
+      "secondary_font": "Inter",
+      "font_category": "geometric-sans",
+      "letter_spacing": "0.06em",
+      "weight": 700
+    },
+    "shape_affinity": ["hex_interlock", "shield_minimal", "lettermark_geometric"],
+    "keywords": ["trustworthy", "fintech", "precision", "minimal", "modern", "secure"]
+  },
+  {
+    "id": "fintech_wealth_02",
+    "name": "Sovereign Navy & Champagne Gold",
+    "industry": "finance",
+    "attributes": {
+      "minimal_ornate": 0.35,
+      "modern_classic": 0.45,
+      "playful_serious": 0.05,
+      "warm_cool": 0.55,
+      "bold_delicate": 0.65
+    },
+    "palette": {
+      "primary": "#0A192F",
+      "secondary": "#D4AF37",
+      "accent": "#F3E5AB",
+      "background": "#F8FAFC",
+      "text": "#0A192F"
+    },
+    "typography": {
+      "primary_font": "Cinzel",
+      "secondary_font": "Lato",
+      "font_category": "classic-serif",
+      "letter_spacing": "0.12em",
+      "weight": 600
+    },
+    "shape_affinity": ["crest_monogram", "shield_minimal", "lettermark_geometric"],
+    "keywords": ["wealth", "institutional", "prestige", "traditional", "elite"]
+  },
+  {
+    "id": "fintech_crypto_03",
+    "name": "Prism Teal & Radiant Violet",
+    "industry": "finance",
+    "attributes": {
+      "minimal_ornate": 0.3,
+      "modern_classic": 0.95,
+      "playful_serious": 0.4,
+      "warm_cool": 0.35,
+      "bold_delicate": 0.75
+    },
+    "palette": {
+      "primary": "#1E1B4B",
+      "secondary": "#8B5CF6",
+      "accent": "#10B981",
+      "background": "#0B0F19",
+      "text": "#F8FAFC"
+    },
+    "typography": {
+      "primary_font": "Outfit",
+      "secondary_font": "Space Grotesk",
+      "font_category": "display-tech",
+      "letter_spacing": "0.05em",
+      "weight": 700
+    },
+    "shape_affinity": ["nodes_network", "hex_interlock", "dynamic_arcs"],
+    "keywords": ["crypto", "web3", "decentralized", "futuristic", "dynamic"]
+  },
+  {
+    "id": "tech_saas_01",
+    "name": "Hyper Indigo & Aurora Blue",
+    "industry": "tech",
+    "attributes": {
+      "minimal_ornate": 0.2,
+      "modern_classic": 0.9,
+      "playful_serious": 0.25,
+      "warm_cool": 0.25,
+      "bold_delicate": 0.6
+    },
+    "palette": {
+      "primary": "#4F46E5",
+      "secondary": "#38BDF8",
+      "accent": "#6366F1",
+      "background": "#FFFFFF",
+      "text": "#1E293B"
+    },
+    "typography": {
+      "primary_font": "Plus Jakarta Sans",
+      "secondary_font": "Inter",
+      "font_category": "geometric-sans",
+      "letter_spacing": "0.04em",
+      "weight": 700
+    },
+    "shape_affinity": ["dynamic_arcs", "circular_orbit", "lettermark_geometric"],
+    "keywords": ["saas", "cloud", "developer", "scalable", "sleek"]
+  },
+  {
+    "id": "tech_ai_02",
+    "name": "Deep Obsidian & Cyber Emerald",
+    "industry": "tech",
+    "attributes": {
+      "minimal_ornate": 0.25,
+      "modern_classic": 0.95,
+      "playful_serious": 0.2,
+      "warm_cool": 0.3,
+      "bold_delicate": 0.8
+    },
+    "palette": {
+      "primary": "#030712",
+      "secondary": "#10B981",
+      "accent": "#34D399",
+      "background": "#030712",
+      "text": "#F9FAFB"
+    },
+    "typography": {
+      "primary_font": "Space Grotesk",
+      "secondary_font": "Inter",
+      "font_category": "display-tech",
+      "letter_spacing": "0.08em",
+      "weight": 700
+    },
+    "shape_affinity": ["nodes_network", "hex_interlock", "lettermark_geometric"],
+    "keywords": ["artificial intelligence", "deep tech", "algorithm", "cutting-edge"]
+  },
+  {
+    "id": "tech_minimal_03",
+    "name": "Monochrome Grid & Cobalt",
+    "industry": "tech",
+    "attributes": {
+      "minimal_ornate": 0.05,
+      "modern_classic": 0.85,
+      "playful_serious": 0.15,
+      "warm_cool": 0.3,
+      "bold_delicate": 0.5
+    },
+    "palette": {
+      "primary": "#18181B",
+      "secondary": "#2563EB",
+      "accent": "#60A5FA",
+      "background": "#FAFAFA",
+      "text": "#18181B"
+    },
+    "typography": {
+      "primary_font": "Inter",
+      "secondary_font": "Inter",
+      "font_category": "neutral-grotesque",
+      "letter_spacing": "0.02em",
+      "weight": 600
+    },
+    "shape_affinity": ["shield_minimal", "lettermark_geometric", "circular_orbit"],
+    "keywords": ["clean", "developer-tools", "minimalist", "open-source", "modular"]
+  },
+  {
+    "id": "health_wellness_01",
+    "name": "Serene Eucalyptus & Morning Mist",
+    "industry": "health",
+    "attributes": {
+      "minimal_ornate": 0.2,
+      "modern_classic": 0.6,
+      "playful_serious": 0.35,
+      "warm_cool": 0.45,
+      "bold_delicate": 0.3
+    },
+    "palette": {
+      "primary": "#134E4A",
+      "secondary": "#2DD4BF",
+      "accent": "#99F6E4",
+      "background": "#F0FDFA",
+      "text": "#134E4A"
+    },
+    "typography": {
+      "primary_font": "Outfit",
+      "secondary_font": "Lato",
+      "font_category": "humanist-sans",
+      "letter_spacing": "0.05em",
+      "weight": 500
+    },
+    "shape_affinity": ["circular_orbit", "botanical_spiral", "dynamic_arcs"],
+    "keywords": ["wellness", "calm", "serene", "meditation", "organic"]
+  },
+  {
+    "id": "health_clinical_02",
+    "name": "Clinical Azure & Pure White",
+    "industry": "health",
+    "attributes": {
+      "minimal_ornate": 0.15,
+      "modern_classic": 0.75,
+      "playful_serious": 0.05,
+      "warm_cool": 0.2,
+      "bold_delicate": 0.5
+    },
+    "palette": {
+      "primary": "#0369A1",
+      "secondary": "#38BDF8",
+      "accent": "#0284C7",
+      "background": "#FFFFFF",
+      "text": "#0C4A6E"
+    },
+    "typography": {
+      "primary_font": "Poppins",
+      "secondary_font": "Inter",
+      "font_category": "geometric-sans",
+      "letter_spacing": "0.03em",
+      "weight": 600
+    },
+    "shape_affinity": ["shield_minimal", "circular_orbit", "lettermark_geometric"],
+    "keywords": ["medical", "clinical", "biotech", "diagnostics", "trusted"]
+  },
+  {
+    "id": "health_vitality_03",
+    "name": "Coral Pulse & Warm Sand",
+    "industry": "health",
+    "attributes": {
+      "minimal_ornate": 0.3,
+      "modern_classic": 0.7,
+      "playful_serious": 0.5,
+      "warm_cool": 0.8,
+      "bold_delicate": 0.65
+    },
+    "palette": {
+      "primary": "#E11D48",
+      "secondary": "#FB7185",
+      "accent": "#FDE047",
+      "background": "#FFF1F2",
+      "text": "#881337"
+    },
+    "typography": {
+      "primary_font": "Poppins",
+      "secondary_font": "Lato",
+      "font_category": "humanist-sans",
+      "letter_spacing": "0.04em",
+      "weight": 700
+    },
+    "shape_affinity": ["dynamic_arcs", "circular_orbit", "lettermark_geometric"],
+    "keywords": ["fitness", "vitality", "pulse", "energy", "active"]
+  },
+  {
+    "id": "creative_studio_01",
+    "name": "Bauhaus Primary & Pitch Black",
+    "industry": "creative",
+    "attributes": {
+      "minimal_ornate": 0.1,
+      "modern_classic": 0.9,
+      "playful_serious": 0.65,
+      "warm_cool": 0.7,
+      "bold_delicate": 0.9
+    },
+    "palette": {
+      "primary": "#000000",
+      "secondary": "#E11D48",
+      "accent": "#FBBF24",
+      "background": "#FFFFFF",
+      "text": "#000000"
+    },
+    "typography": {
+      "primary_font": "Syne",
+      "secondary_font": "Space Grotesk",
+      "font_category": "display-creative",
+      "letter_spacing": "0.05em",
+      "weight": 800
+    },
+    "shape_affinity": ["lettermark_geometric", "hex_interlock", "circular_orbit"],
+    "keywords": ["bauhaus", "bold", "daring", "graphic", "art-direction"]
+  },
+  {
+    "id": "creative_sunset_02",
+    "name": "Tangerine Glow & Deep Magenta",
+    "industry": "creative",
+    "attributes": {
+      "minimal_ornate": 0.35,
+      "modern_classic": 0.8,
+      "playful_serious": 0.75,
+      "warm_cool": 0.9,
+      "bold_delicate": 0.7
+    },
+    "palette": {
+      "primary": "#701A75",
+      "secondary": "#F97316",
+      "accent": "#F43F5E",
+      "background": "#FAF5FF",
+      "text": "#4A044E"
+    },
+    "typography": {
+      "primary_font": "Outfit",
+      "secondary_font": "Inter",
+      "font_category": "geometric-sans",
+      "letter_spacing": "0.04em",
+      "weight": 700
+    },
+    "shape_affinity": ["dynamic_arcs", "circular_orbit", "botanical_spiral"],
+    "keywords": ["studio", "motion", "vibrant", "expressive", "curator"]
+  },
+  {
+    "id": "creative_brutalist_03",
+    "name": "Acid Lime & Brutalist Carbon",
+    "industry": "creative",
+    "attributes": {
+      "minimal_ornate": 0.15,
+      "modern_classic": 0.95,
+      "playful_serious": 0.7,
+      "warm_cool": 0.6,
+      "bold_delicate": 0.95
+    },
+    "palette": {
+      "primary": "#121212",
+      "secondary": "#84CC16",
+      "accent": "#A3E635",
+      "background": "#121212",
+      "text": "#FFFFFF"
+    },
+    "typography": {
+      "primary_font": "Space Grotesk",
+      "secondary_font": "Inter",
+      "font_category": "display-tech",
+      "letter_spacing": "0.08em",
+      "weight": 800
+    },
+    "shape_affinity": ["lettermark_geometric", "nodes_network", "hex_interlock"],
+    "keywords": ["brutalist", "experimental", "acid", "underground", "disruptive"]
+  },
+  {
+    "id": "eco_nature_01",
+    "name": "Canopy Forest & Earth Clay",
+    "industry": "eco",
+    "attributes": {
+      "minimal_ornate": 0.3,
+      "modern_classic": 0.4,
+      "playful_serious": 0.3,
+      "warm_cool": 0.55,
+      "bold_delicate": 0.45
+    },
+    "palette": {
+      "primary": "#14532D",
+      "secondary": "#B45309",
+      "accent": "#86EFAC",
+      "background": "#F0FDF4",
+      "text": "#14532D"
+    },
+    "typography": {
+      "primary_font": "Fraunces",
+      "secondary_font": "Lato",
+      "font_category": "humanist-serif",
+      "letter_spacing": "0.03em",
+      "weight": 600
+    },
+    "shape_affinity": ["botanical_spiral", "circular_orbit", "shield_minimal"],
+    "keywords": ["sustainability", "earth", "conservation", "botanical", "organic"]
+  },
+  {
+    "id": "eco_cleantech_02",
+    "name": "Solar Citron & Alpine Teal",
+    "industry": "eco",
+    "attributes": {
+      "minimal_ornate": 0.2,
+      "modern_classic": 0.85,
+      "playful_serious": 0.35,
+      "warm_cool": 0.4,
+      "bold_delicate": 0.6
+    },
+    "palette": {
+      "primary": "#0F766E",
+      "secondary": "#84CC16",
+      "accent": "#2DD4BF",
+      "background": "#FFFFFF",
+      "text": "#134E4A"
+    },
+    "typography": {
+      "primary_font": "Plus Jakarta Sans",
+      "secondary_font": "Inter",
+      "font_category": "geometric-sans",
+      "letter_spacing": "0.04em",
+      "weight": 700
+    },
+    "shape_affinity": ["circular_orbit", "dynamic_arcs", "lettermark_geometric"],
+    "keywords": ["cleantech", "renewables", "solar", "wind", "future"]
+  },
+  {
+    "id": "food_artisan_01",
+    "name": "Espresso Roast & Steamed Milk",
+    "industry": "food",
+    "attributes": {
+      "minimal_ornate": 0.4,
+      "modern_classic": 0.3,
+      "playful_serious": 0.4,
+      "warm_cool": 0.85,
+      "bold_delicate": 0.55
+    },
+    "palette": {
+      "primary": "#451A03",
+      "secondary": "#D97706",
+      "accent": "#FDE68A",
+      "background": "#FFFBEB",
+      "text": "#451A03"
+    },
+    "typography": {
+      "primary_font": "Fraunces",
+      "secondary_font": "Lora",
+      "font_category": "warm-serif",
+      "letter_spacing": "0.04em",
+      "weight": 600
+    },
+    "shape_affinity": ["circular_orbit", "crest_monogram", "botanical_spiral"],
+    "keywords": ["coffee", "artisan", "roastery", "warm", "handcrafted", "cozy"]
+  },
+  {
+    "id": "food_bistro_02",
+    "name": "Cabernet Wine & Tuscan Ochre",
+    "industry": "food",
+    "attributes": {
+      "minimal_ornate": 0.45,
+      "modern_classic": 0.35,
+      "playful_serious": 0.2,
+      "warm_cool": 0.8,
+      "bold_delicate": 0.6
+    },
+    "palette": {
+      "primary": "#4C0519",
+      "secondary": "#B45309",
+      "accent": "#F59E0B",
+      "background": "#FFF1F2",
+      "text": "#4C0519"
+    },
+    "typography": {
+      "primary_font": "Playfair Display",
+      "secondary_font": "Lato",
+      "font_category": "editorial-serif",
+      "letter_spacing": "0.05em",
+      "weight": 700
+    },
+    "shape_affinity": ["crest_monogram", "shield_minimal", "circular_orbit"],
+    "keywords": ["bistro", "culinary", "gourmet", "dining", "wine", "rich"]
+  },
+  {
+    "id": "food_fast_casual_03",
+    "name": "Zesty Mustard & Fiery Crimson",
+    "industry": "food",
+    "attributes": {
+      "minimal_ornate": 0.25,
+      "modern_classic": 0.8,
+      "playful_serious": 0.85,
+      "warm_cool": 0.95,
+      "bold_delicate": 0.85
+    },
+    "palette": {
+      "primary": "#DC2626",
+      "secondary": "#F59E0B",
+      "accent": "#16A34A",
+      "background": "#FFFFFF",
+      "text": "#7F1D1D"
+    },
+    "typography": {
+      "primary_font": "Poppins",
+      "secondary_font": "Inter",
+      "font_category": "geometric-sans",
+      "letter_spacing": "0.03em",
+      "weight": 800
+    },
+    "shape_affinity": ["dynamic_arcs", "circular_orbit", "lettermark_geometric"],
+    "keywords": ["street-food", "crave", "fast-casual", "delicious", "fun"]
+  },
+  {
+    "id": "retail_haute_01",
+    "name": "Atelier Noir & Alabaster",
+    "industry": "retail",
+    "attributes": {
+      "minimal_ornate": 0.05,
+      "modern_classic": 0.5,
+      "playful_serious": 0.05,
+      "warm_cool": 0.3,
+      "bold_delicate": 0.25
+    },
+    "palette": {
+      "primary": "#0A0A0A",
+      "secondary": "#525252",
+      "accent": "#A3A3A3",
+      "background": "#FFFFFF",
+      "text": "#0A0A0A"
+    },
+    "typography": {
+      "primary_font": "Cinzel",
+      "secondary_font": "Inter",
+      "font_category": "minimal-high-fashion",
+      "letter_spacing": "0.18em",
+      "weight": 500
+    },
+    "shape_affinity": ["lettermark_geometric", "shield_minimal", "circular_orbit"],
+    "keywords": ["haute couture", "monochrome", "runway", "editorial", "timeless"]
+  },
+  {
+    "id": "retail_streetwear_02",
+    "name": "Tokyo Neon & Concrete Grey",
+    "industry": "retail",
+    "attributes": {
+      "minimal_ornate": 0.2,
+      "modern_classic": 0.9,
+      "playful_serious": 0.7,
+      "warm_cool": 0.5,
+      "bold_delicate": 0.95
+    },
+    "palette": {
+      "primary": "#171717",
+      "secondary": "#EC4899",
+      "accent": "#06B6D4",
+      "background": "#F5F5F5",
+      "text": "#171717"
+    },
+    "typography": {
+      "primary_font": "Syne",
+      "secondary_font": "Space Grotesk",
+      "font_category": "display-streetwear",
+      "letter_spacing": "0.06em",
+      "weight": 800
+    },
+    "shape_affinity": ["lettermark_geometric", "hex_interlock", "nodes_network"],
+    "keywords": ["streetwear", "apparel", "tokyo", "bold", "youth", "drop"]
+  },
+  {
+    "id": "luxury_hospitality_01",
+    "name": "Imperial Onyx & Venetian Gold",
+    "industry": "luxury",
+    "attributes": {
+      "minimal_ornate": 0.3,
+      "modern_classic": 0.35,
+      "playful_serious": 0.05,
+      "warm_cool": 0.6,
+      "bold_delicate": 0.5
+    },
+    "palette": {
+      "primary": "#18181B",
+      "secondary": "#CA8A04",
+      "accent": "#EAB308",
+      "background": "#09090B",
+      "text": "#FAFAFA"
+    },
+    "typography": {
+      "primary_font": "Playfair Display",
+      "secondary_font": "Lato",
+      "font_category": "classic-luxury",
+      "letter_spacing": "0.14em",
+      "weight": 600
+    },
+    "shape_affinity": ["crest_monogram", "shield_minimal", "circular_orbit"],
+    "keywords": ["luxury", "five-star", "concierge", "exclusive", "opulent"]
+  },
+  {
+    "id": "luxury_horology_02",
+    "name": "Swiss Platinum & Midnight Sapphire",
+    "industry": "luxury",
+    "attributes": {
+      "minimal_ornate": 0.25,
+      "modern_classic": 0.55,
+      "playful_serious": 0.05,
+      "warm_cool": 0.25,
+      "bold_delicate": 0.55
+    },
+    "palette": {
+      "primary": "#0F172A",
+      "secondary": "#3B82F6",
+      "accent": "#CBD5E1",
+      "background": "#FFFFFF",
+      "text": "#0F172A"
+    },
+    "typography": {
+      "primary_font": "Cinzel",
+      "secondary_font": "Inter",
+      "font_category": "classic-serif",
+      "letter_spacing": "0.15em",
+      "weight": 600
+    },
+    "shape_affinity": ["shield_minimal", "circular_orbit", "lettermark_geometric"],
+    "keywords": ["horology", "watches", "precision", "swiss", "timeless", "heritage"]
+  },
+  {
+    "id": "creative_pastel_04",
+    "name": "Lilac Dream & Pistachio",
+    "industry": "creative",
+    "attributes": {
+      "minimal_ornate": 0.25,
+      "modern_classic": 0.8,
+      "playful_serious": 0.8,
+      "warm_cool": 0.45,
+      "bold_delicate": 0.4
+    },
+    "palette": {
+      "primary": "#581C87",
+      "secondary": "#C084FC",
+      "accent": "#86EFAC",
+      "background": "#FAF5FF",
+      "text": "#3B0764"
+    },
+    "typography": {
+      "primary_font": "Outfit",
+      "secondary_font": "Poppins",
+      "font_category": "playful-sans",
+      "letter_spacing": "0.04em",
+      "weight": 600
+    },
+    "shape_affinity": ["circular_orbit", "dynamic_arcs", "botanical_spiral"],
+    "keywords": ["whimsical", "pastel", "creative", "friendly", "delightful"]
+  },
+  {
+    "id": "tech_quantum_04",
+    "name": "Quantum Violet & Radiant Rose",
+    "industry": "tech",
+    "attributes": {
+      "minimal_ornate": 0.25,
+      "modern_classic": 0.95,
+      "playful_serious": 0.3,
+      "warm_cool": 0.6,
+      "bold_delicate": 0.7
+    },
+    "palette": {
+      "primary": "#2E1065",
+      "secondary": "#7C3AED",
+      "accent": "#F43F5E",
+      "background": "#0F0728",
+      "text": "#FAF5FF"
+    },
+    "typography": {
+      "primary_font": "Space Grotesk",
+      "secondary_font": "Inter",
+      "font_category": "display-tech",
+      "letter_spacing": "0.06em",
+      "weight": 700
+    },
+    "shape_affinity": ["nodes_network", "dynamic_arcs", "hex_interlock"],
+    "keywords": ["quantum", "futuristic", "cyber", "ai", "hardware"]
+  },
+  {
+    "id": "eco_botanical_03",
+    "name": "Sage Herb & Terracotta Sun",
+    "industry": "eco",
+    "attributes": {
+      "minimal_ornate": 0.35,
+      "modern_classic": 0.5,
+      "playful_serious": 0.45,
+      "warm_cool": 0.75,
+      "bold_delicate": 0.4
+    },
+    "palette": {
+      "primary": "#1C3829",
+      "secondary": "#84A98C",
+      "accent": "#E07A5F",
+      "background": "#F4F1DE",
+      "text": "#1C3829"
+    },
+    "typography": {
+      "primary_font": "Fraunces",
+      "secondary_font": "Inter",
+      "font_category": "warm-serif",
+      "letter_spacing": "0.03em",
+      "weight": 600
+    },
+    "shape_affinity": ["botanical_spiral", "circular_orbit", "shield_minimal"],
+    "keywords": ["botanical", "earthy", "holistic", "sustainable", "artisan"]
+  }
+]

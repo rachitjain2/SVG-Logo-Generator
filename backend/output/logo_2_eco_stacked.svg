@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Embedded Google Fonts for Cross-Platform Independence -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800&family=Fraunces:wght@400;500;600;700;800&amp;display=swap');
+      text {
+        font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+        text-rendering: geometricPrecision;
+      }
+    </style>
+
+    <!-- Dynamic Aesthetic Gradients -->
+    <linearGradient id="grad-ps-200" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532D" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <linearGradient id="grad-pa-200" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309" />
+      <stop offset="100%" stop-color="#86EFAC" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow Filter -->
+    <filter id="shadow-subtle" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.10" />
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" rx="16" fill="#F0FDF4" />
+  
+    <g class="layout-stacked">
+      
+    <g class="primitive-botanical" filter="url(#shadow-subtle)">
+      
+        <g transform="rotate(45.0 300.0 220.0)">
+          <path d="M 300.0 220.0 Q 360.72 149.16 300.0 118.8 Q 239.28 149.16 300.0 220.0 Z" 
+                fill="url(#grad-ps-200)" opacity="0.8" />
+        </g>
+        
+        <g transform="rotate(135.0 300.0 220.0)">
+          <path d="M 300.0 220.0 Q 360.72 149.16 300.0 118.8 Q 239.28 149.16 300.0 220.0 Z" 
+                fill="url(#grad-ps-200)" opacity="0.8" />
+        </g>
+        
+        <g transform="rotate(225.0 300.0 220.0)">
+          <path d="M 300.0 220.0 Q 360.72 149.16 300.0 118.8 Q 239.28 149.16 300.0 220.0 Z" 
+                fill="url(#grad-ps-200)" opacity="0.8" />
+        </g>
+        
+        <g transform="rotate(315.0 300.0 220.0)">
+          <path d="M 300.0 220.0 Q 360.72 149.16 300.0 118.8 Q 239.28 149.16 300.0 220.0 Z" 
+                fill="url(#grad-ps-200)" opacity="0.8" />
+        </g>
+        
+      <circle cx="300.0" cy="220.0" r="16.1" fill="#86EFAC" />
+      <circle cx="300.0" cy="220.0" r="6.8999999999999995" fill="#FFFFFF" />
+    </g>
+    
+      
+    <g class="typography-group">
+      <!-- Brand Name -->
+      <text x="300" y="415.0" 
+            font-family="'Fraunces', sans-serif" 
+            font-size="46.0px" 
+            font-weight="600" 
+            letter-spacing="0.04em" 
+            fill="#14532D" 
+            text-anchor="middle" 
+            dominant-baseline="middle">Verdant</text>
+      
+      <!-- Accent Line Divider -->
+      <line x1="220" y1="440.3" x2="380" y2="440.3" 
+            stroke="#86EFAC" stroke-width="2.5" opacity="0.65" stroke-linecap="round" />
+
+      <!-- Tagline -->
+      
+      <text x="300" y="475.0" 
+            font-family="'Lato', sans-serif" 
+            font-size="15px" 
+            font-weight="500" 
+            letter-spacing="0.25em" 
+            fill="#B45309" 
+            text-anchor="middle" 
+            dominant-baseline="middle">ORGANIC BOTANICAL LABS</text>
+      
+    </g>
+    
+    </g>
+    
+</svg>

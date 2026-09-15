@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Embedded Google Fonts for Cross-Platform Independence -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&amp;display=swap');
+      text {
+        font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+        text-rendering: geometricPrecision;
+      }
+    </style>
+
+    <!-- Dynamic Aesthetic Gradients -->
+    <linearGradient id="grad-ps-400" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <linearGradient id="grad-pa-400" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow Filter -->
+    <filter id="shadow-subtle" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.10" />
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" rx="16" fill="#030712" />
+  
+    <g class="layout-badge">
+      
+    <!-- Outer Shield / Emblem Geometry Container -->
+    <rect x="70" y="70" width="460" height="460" rx="36" ry="36" 
+          fill="none" stroke="#030712" stroke-width="4" opacity="0.4" />
+    <rect x="85" y="85" width="430" height="430" rx="28" ry="28" 
+          fill="none" stroke="#34D399" stroke-width="1.5" opacity="0.6" />
+    <!-- Decorative Corner Dots -->
+    <circle cx="95" cy="95" r="4" fill="#34D399" />
+    <circle cx="505" cy="95" r="4" fill="#34D399" />
+    <circle cx="95" cy="505" r="4" fill="#34D399" />
+    <circle cx="505" cy="505" r="4" fill="#34D399" />
+    
+      
+    <g class="primitive-shield" filter="url(#shadow-subtle)">
+      <!-- Main Shield Base -->
+      <path d="M 300.0 142.6 L 376.0 168.82 L 376.0 238.74 Q 376.0 286.81 300.0 317.4 Q 224.0 286.81 224.0 238.74 L 224.0 168.82 Z" fill="url(#grad-ps-400)" opacity="0.95" />
+      <!-- Left Facet Shading for 3D depth -->
+      <path d="M 300.0 142.6 L 224.0 168.82 L 224.0 238.74 Q 224.0 286.81 300.0 317.4 Z" fill="#000000" opacity="0.18" />
+      <!-- Inner Geometric Chevron Key -->
+      <path d="M 300.0 195.04 L 334.2 230.0 L 300.0 264.96 L 265.8 230.0 Z" 
+            fill="#34D399" opacity="0.95" />
+      <circle cx="300.0" cy="230.0" r="9.5" fill="#FFFFFF" />
+    </g>
+    
+      
+    <g class="typography-group">
+      <!-- Name Ribbon Background -->
+      <rect x="120" y="380" width="360" height="60" rx="12" ry="12" 
+            fill="#030712" opacity="0.95" />
+      <!-- Brand Name -->
+      <text x="300" y="415" 
+            font-family="'Cinzel', sans-serif" 
+            font-size="40.0px" 
+            font-weight="700" 
+            letter-spacing="0.10em" 
+            fill="#FFFFFF" 
+            text-anchor="middle" 
+            dominant-baseline="middle">Aegis</text>
+      
+      <!-- Tagline -->
+      
+      <text x="300" y="475" 
+            font-family="'Inter', sans-serif" 
+            font-size="14px" 
+            font-weight="600" 
+            letter-spacing="0.25em" 
+            fill="#10B981" 
+            text-anchor="middle" 
+            dominant-baseline="middle">CLOUD SECURITY PROTOCOL</text>
+      
+    </g>
+    
+    </g>
+    
+</svg>

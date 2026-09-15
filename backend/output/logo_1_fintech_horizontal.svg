@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+  <defs>
+    <!-- Embedded Google Fonts for Cross-Platform Independence -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&amp;display=swap');
+      text {
+        font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+        text-rendering: geometricPrecision;
+      }
+    </style>
+
+    <!-- Dynamic Aesthetic Gradients -->
+    <linearGradient id="grad-ps-100" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <linearGradient id="grad-pa-100" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow Filter -->
+    <filter id="shadow-subtle" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.10" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="320" rx="16" fill="#FFFFFF" />
+  
+    <g class="layout-horizontal">
+      
+    <g class="primitive-hex-interlock" filter="url(#shadow-subtle)">
+      <!-- Isometric Facet Left -->
+      <path d="M 160.0 160.0 L 160.0 246.39999999999998 L 85.1754051130245 203.2 L 85.17540511302451 116.8 Z" fill="#0F172A" opacity="0.95" />
+      <!-- Isometric Facet Right -->
+      <path d="M 160.0 160.0 L 234.8245948869755 116.80000000000001 L 234.8245948869755 203.2 L 160.0 246.39999999999998 Z" fill="#0284C7" opacity="0.90" />
+      <!-- Isometric Facet Top -->
+      <path d="M 160.0 160.0 L 85.17540511302451 116.8 L 160.0 73.60000000000001 L 234.8245948869755 116.80000000000001 Z" fill="url(#grad-pa-100)" opacity="0.98" />
+      <!-- Inner Floating Accent Core -->
+      <path d="M 160.0 135.808 L 180.95027199999998 147.904 L 160.0 184.192 L 139.04972800000002 147.904 Z" fill="#06B6D4" opacity="0.9" />
+      <!-- Stylized Center Node -->
+      <circle cx="160.0" cy="160.0" r="9.0" fill="#FFFFFF" opacity="0.95" />
+    </g>
+    
+      
+    <g class="typography-group">
+      <!-- Brand Name -->
+      <text x="300.0" y="155.0" 
+            font-family="'Space Grotesk', sans-serif" 
+            font-size="52.0px" 
+            font-weight="700" 
+            letter-spacing="0.06em" 
+            fill="#0F172A" 
+            dominant-baseline="middle">Apex</text>
+      
+      <!-- Tagline / Descriptor (if present) -->
+      
+      <text x="302.0" y="205.0" 
+            font-family="'Inter', sans-serif" 
+            font-size="16px" 
+            font-weight="500" 
+            letter-spacing="0.22em" 
+            fill="#0284C7" 
+            dominant-baseline="middle">NEXT-GEN FINTECH</text>
+      
+    </g>
+    
+    </g>
+    
+</svg>
