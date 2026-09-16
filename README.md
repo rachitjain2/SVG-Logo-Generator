@@ -28,6 +28,7 @@
 
 | Name | Role & Core Contributions |
 | :--- | :--- |
+| **🌟 Rachit Jain** | **System & Design Architecture Lead**<br>• End-to-end system design & aesthetic vector space architecture<br>• ML recommender & LLM pipeline workflow orchestration<br>• Core procedural engine design & integration architecture |
 | **🌟 Ruchika Parashar** | **AI/ML & Knowledge Base Lead**<br>• Curated aesthetic catalog dataset schema (`design_catalog.json`)<br>• Scikit-Learn $k$-NN metric retrieval pipeline & feature scaling<br>• NVIDIA NIM LLM structured prompt engineering & attribute extraction |
 | **🌟 Yash Singhal** | **Full-Stack & Procedural Engine Lead**<br>• Procedural SVG geometric primitive generators & layouts<br>• FastAPI REST service, CORS middleware & TestClient test suite<br>• React + Vite interactive UI, real-time manual override controls & export pipeline |
 
@@ -289,6 +290,6 @@ SVG-Logo-Generator/
 ---
 
 <div align="center">
-  <b>Developed for College AI/ML Mini Project by Ruchika Parashar &amp; Yash Singhal</b><br>
+  <b>Developed for College AI/ML Mini Project by Rachit Jain, Ruchika Parashar &amp; Yash Singhal</b><br>
   <i>Empowering procedural generative design through Machine Learning</i>
 </div>
